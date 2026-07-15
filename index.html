@@ -1,3 +1,110 @@
----
-layout: index
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tiny Melody — A Music Box in Your Pocket</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;line-height:1.6;background:#f9fafb;color:#0b1220;margin:0;padding:0}
+    header{background:linear-gradient(135deg,#0f0a1a,#1a1028);color:white;padding:60px 20px;text-align:center}
+    header h1{margin:0;font-size:2.4rem;font-weight:700;letter-spacing:-0.5px}
+    header p{font-size:1.15rem;color:#c8b8e0;margin-top:8px}
+    .subtitle{font-size:1rem;color:#a898c0;margin-top:4px;font-style:italic}
+    h2{color:#1a1028;margin-top:32px;font-size:1.5rem}
+    .wrap{max-width:1000px;margin:0 auto;padding:24px}
+    section{margin-bottom:48px}
+    .features{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;margin-top:20px}
+    @media(max-width:700px){.features{grid-template-columns:1fr}}
+    .feature{background:white;padding:24px;border-radius:14px;box-shadow:0 2px 10px rgba(0,0,0,0.06);border:1px solid #eee}
+    .feature h3{margin-top:0;color:#1a1028;font-size:1.1rem}
+    .feature p{margin:8px 0 0;color:#555;font-size:0.95rem}
+    .screenshot-container{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin-top:20px}
+    .screenshot-container img{width:220px;border-radius:20px;border:1px solid #e5e7eb;box-shadow:0 4px 16px rgba(0,0,0,0.1)}
+    .badge{display:inline-block;background:#2563eb;color:white;padding:10px 28px;border-radius:40px;text-decoration:none;font-weight:600;font-size:1rem;margin-top:16px}
+    .badge:hover{background:#1d4ed8}
+    footer{background:#f1f5f9;color:#475569;padding:24px;text-align:center;font-size:0.9rem}
+    footer a{color:#2563eb;text-decoration:none}
+    .quote{font-size:1.5rem;font-weight:300;color:#555;text-align:center;max-width:600px;margin:32px auto;font-style:italic}
+    ul.checks{list-style:none;padding:0}
+    ul.checks li{padding:6px 0;padding-left:28px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%232563eb' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E") left center no-repeat;background-size:16px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tiny Melody</h1>
+    <p>A Music Box in Your Pocket</p>
+    <div class="subtitle">Play a melody. Keep a memory.</div>
+  </header>
+
+  <div class="wrap">
+    <section>
+      <h2>Why Tiny Melody?</h2>
+      <p><strong>Tiny Melody</strong> is a beautifully simple music box app for iPhone. Tap the golden keys, record a tune, and share it as a tiny musical gift — no music theory, no login, no ads. Just you and a little music box.</p>
+    </section>
+
+    <section>
+      <h2>Key Features</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>🎹 Play Instantly</h3>
+          <p>15 golden keys with distinct colors and warm, real-time music box sound. Multi-touch and slide-playing supported.</p>
+        </div>
+        <div class="feature">
+          <h3>⏺ Record & Save</h3>
+          <p>Tap record, play your melody, and save it with a name. Tiny Melody captures the notes — not the noise around you.</p>
+        </div>
+        <div class="feature">
+          <h3>✨ Smooth Timing</h3>
+          <p>One tap gently corrects your rhythm while keeping your melody yours. Original and Smooth versions are both preserved.</p>
+        </div>
+        <div class="feature">
+          <h3>🎨 Three Sound Presets</h3>
+          <p>Classic (bright), Wooden (warm), Dream (airy). Each preset transforms the character of your music box.</p>
+        </div>
+        <div class="feature">
+          <h3>📦 Built-in Classics</h3>
+          <p>Six beloved melodies included — Twinkle Twinkle, Ode to Joy, Brahms' Lullaby, and more. Make them yours with one tap.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>How It Works</h2>
+      <ol style="max-width:600px;margin:0 auto;font-size:1.05rem;line-height:1.8">
+        <li><strong>Open the app</strong> — the keys are waiting.</li>
+        <li><strong>Tap to play</strong> — each key glows and sings.</li>
+        <li><strong>Hit Record</strong> — a 3-2-1 countdown prepares you.</li>
+        <li><strong>Play your melody</strong> — 15 notes, endless possibilities.</li>
+        <li><strong>Save & name it</strong> — it lives in your collection.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>App Screenshots</h2>
+      <div class="screenshot-container">
+        <img src="screenshot-play.png" alt="Play Screen">
+        <img src="screenshot-recording.png" alt="Recording Screen">
+        <img src="screenshot-preview.png" alt="Preview Screen">
+        <img src="screenshot-library.png" alt="My Melodies Screen">
+        <img src="screenshot-editor.png" alt="Editor Screen">
+      </div>
+    </section>
+
+    <section>
+      <h2>What People Are Saying</h2>
+      <div class="quote">"The simplest way to make and share a music box song. My kids love it."</div>
+      <div class="quote" style="font-size:1.2rem">"Finally — an app that captures the joy of a music box without any complexity."</div>
+    </section>
+
+    <section id="download" style="text-align:center">
+      <h2>Get Tiny Melody Today</h2>
+      <p>Free to play and record. Unlock the full experience with a one-time purchase.</p>
+      <a class="badge" href="#">Download on the App Store</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2026 Tiny Melody • <a href="privacy.html">Privacy Policy</a> • <a href="support.html">Support</a></p>
+  </footer>
+</body>
+</html>
